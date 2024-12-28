@@ -1,0 +1,226 @@
+.main {
+    width: 607px;
+    padding-top: 104px;
+    flex: 1;
+}
+.content-post {
+    width: 607px;
+    height: 793.963px;
+    background-image: url('../content/content-1.jpg');
+    background-size: cover;
+}
+@media(min-height:730.1px) {
+    .welcome-box {
+        position: sticky;
+        top: 1000px;
+        left: 0;
+        right: 0;
+        background: linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.8)
+        );
+        backdrop-filter: blur(1px);
+        display: flex;
+        flex-direction: column;
+        padding: 20px 16px 35px;
+    }
+}
+@media (max-height:730px) {
+    .welcome-box {
+        position: sticky;
+        top: 615px;
+        left: 0;
+        right: 0;
+        background: linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.8)
+        );
+        backdrop-filter: blur(1px);
+        display: flex;
+        flex-direction: column;
+        padding: 20px 16px 35px;
+    }
+}
+.tagar {
+    font-size: 24px;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    margin: 0;
+}
+.sponsor-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.sponsor-icon {
+    fill: rgb(245, 245, 245);
+    width: 15px;
+}
+.sponsor {
+    color: rgb(245, 245, 245);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 5px;
+}
+.content-text-bucin {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgb(45, 45, 45);
+    cursor: pointer;
+}
+.description-bucin {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 8px;
+    position: relative;
+    padding-bottom: 44px;
+}
+.id-bucin {
+    display: flex;
+    flex-direction: row;
+}
+.bucin-title, .text-bucin {
+    color: rgb(245, 245, 245);
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400px;
+}
+.bucin-title {
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+.three-dot {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.link-bucin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.icon-bucin {
+    fill: rgb(150, 150, 150);
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    transition: fill 0.15s;
+    color: rgb(150, 150, 150);
+    transition: color 0.15s;
+}
+.viewer {
+    color: rgb(150, 150, 150);
+    font-weight: 400;
+    font-size: 13.5px;
+    margin: 0;
+    margin-left: -3px;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+.link-bucin-box2:hover {
+    .viewer {
+        color: rgb(73, 161, 255);
+    }
+    .icon-bucin {
+        fill: rgb(73, 161, 255);
+        color: rgb(73, 161, 255);
+    }
+    .link-bucin-box {
+        background-color: rgba(73, 161, 255, 0.2);
+    }
+   
+}
+.link-bucin-box3:hover {
+    .viewer {
+        color: rgb(61, 235, 99);
+    }
+    .icon-bucin {
+        fill: rgb(61, 235, 99);
+    }
+    .link-bucin-box {
+        background-color: rgba(61, 235, 99, 0.2);
+    }
+}
+.link-bucin-box4:hover {
+    .viewer {
+        color: rgb(235, 61, 134);
+    }
+    .icon-bucin {
+        fill: rgb(235, 61, 134);
+    }
+    .link-bucin-box {
+        background-color: rgba(235, 61, 134, 0.2);
+    }
+}
+.link-bucin-box5:hover {
+    .viewer {
+        color: rgb(73, 161, 255);
+    }
+    .icon-bucin {
+        fill: rgb(73, 161, 255);
+    }
+    .link-bucin-box {
+        background-color: rgba(73, 161, 255, 0.2);
+    }
+}
+.link-bucin-box6:hover {
+    .viewer {
+        color: rgb(73, 161, 255);
+    }
+    .icon-bucin {
+        fill: rgb(73, 161, 255);
+    }
+    .link-bucin-box {
+        background-color: rgba(73, 161, 255, 0.2);
+    }
+}
+.link-bucin-box7:hover {
+    .viewer {
+        color: rgb(73, 161, 255);
+    }
+    .icon-bucin {
+        fill: rgb(73, 161, 255);
+    }
+    .link-bucin-box {
+        background-color: rgba(73, 161, 255, 0.2);
+    }
+}
+.link-bucin-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.15s;
+}
+.link-bucin-box2, .link-bucin-box3, .link-bucin-box4, .link-bucin-box5, .link-bucin-box6, .link-bucin-box7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.objek-content {
+    width: 100%;
+    height: auto;
+}
+.bucin-objek {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid rgb(45, 45, 45);
+    cursor: pointer;
+}

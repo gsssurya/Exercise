@@ -1,0 +1,300 @@
+@media (min-width:1106px) {
+    .right-sidebar {
+        flex: 1;
+        display: flex;
+        margin-right: 98px;
+        min-width: 300px;
+    }
+    .right-sidebar-container {
+        padding-left: 30px;
+        padding-top: 12px;
+        border-left: 1px solid rgb(45, 45, 45);
+        background-color: black;
+        z-index: 200;
+        flex: 1;
+        position: fixed;
+        bottom: 0;
+        top: 0;
+    }
+    .recommendation-box {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(45, 45, 45);
+        padding-top: 10px;
+        width: 346px;
+        border-radius: 15px;
+        margin-bottom: 12px;
+    }
+    .account-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        transition: background-color 0.15s;
+        cursor: pointer;
+    }
+    .account-pp {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .account-name-box {
+        margin-left: 8px;
+        flex: 1;
+    }
+    .account-name, .account-id {
+        margin: 0;
+        font-size: 15.5px;
+    }
+    .account-name {
+        color:  rgb(235, 235, 235);
+        font-weight: 500;
+    }
+    .account-id {
+        color: rgb(150, 150, 150);
+    }
+    .follow-button {
+        background-color: rgb(235, 235, 235);
+        border: none;
+        font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 650;
+        border-radius: 30px;
+        width: 78px;
+        height: 32px;
+        transition: background-color 0.15s;
+    }
+    .who-to-follow {
+        color: rgb(235, 235, 235);
+        font-size: 20px;
+        margin: 0;
+        font-weight: bold;
+        margin-bottom: 12px;
+        margin-left: 15px;
+    }
+    .show-more {
+        color: rgb(81, 139, 255);
+        cursor: pointer;
+        margin: 0;
+        font-size: 15.5px;
+        padding-top: 12px;
+        padding-bottom: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transition: background-color 0.15s;
+    }
+    .show-more:hover, .account-box:hover {
+        background-color: rgb(10, 10, 10);
+    }
+    .follow-button:hover {
+        background-color: rgb(219, 219, 219);
+    }
+    .x-corp {
+        display: flex;
+        flex-direction: row;
+        padding-left: 15px;
+        padding-top: 2px;
+        cursor: pointer;
+    }
+    .x-corp p {
+        color: rgb(126, 126, 126);
+        margin-right: 12px;
+        font-size: 13px;
+        font-weight: 400;
+        transition: text-decoration 0.15s;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .x-corp p:hover {
+        text-decoration: underline;
+    }
+    .verified-icon {
+        fill: rgb(81, 139, 255);
+        height: 20px;
+        font-size: 0;
+        margin-top: 2px;
+        margin-left: 1px;
+    }
+}
+@media (max-width:1105.9px) {
+    .right-sidebar {
+        flex: 1;
+        display: flex;
+        margin-right: 98px;
+        min-width: 300px;
+    }
+    .right-sidebar-container {
+        padding-left: 30px;
+        padding-top: 12px;
+        border-left: 1px solid rgb(45, 45, 45);
+        background-color: black;
+        z-index: 200;
+        flex: 1;
+        position: fixed;
+        bottom: 0;
+        top: 0;
+    }
+    .recommendation-box {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(45, 45, 45);
+        padding-top: 10px;
+        width: 310px;
+        border-radius: 15px;
+        margin-bottom: 12px;
+    }
+    .account-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        transition: background-color 0.15s;
+        cursor: pointer;
+    }
+    .account-pp {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .account-name-box {
+        margin-left: 8px;
+        flex: 1;
+    }
+    .account-name, .account-id {
+        margin: 0;
+        font-size: 15.5px;
+    }
+    .account-name {
+        color:  rgb(235, 235, 235);
+        font-weight: 500;
+    }
+    .account-id {
+        color: rgb(150, 150, 150);
+    }
+    .follow-button {
+        background-color: rgb(235, 235, 235);
+        border: none;
+        font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 650;
+        border-radius: 30px;
+        width: 78px;
+        height: 32px;
+        transition: background-color 0.15s;
+    }
+    .who-to-follow {
+        color: rgb(235, 235, 235);
+        font-size: 20px;
+        margin: 0;
+        font-weight: bold;
+        margin-bottom: 12px;
+        margin-left: 20px;
+    }
+    .show-more {
+        color: rgb(81, 139, 255);
+        cursor: pointer;
+        margin: 0;
+        font-size: 15.5px;
+        padding-top: 12px;
+        padding-bottom: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transition: background-color 0.15s;
+    }
+    .show-more:hover, .account-box:hover {
+        background-color: rgb(10, 10, 10);
+    }
+    .follow-button:hover {
+        background-color: rgb(219, 219, 219);
+    }
+    .x-corp {
+        display: flex;
+        flex-direction: row;
+        padding-left: 15px;
+        padding-top: 2px;
+        cursor: pointer;
+    }
+    .x-corp p {
+        color: rgb(126, 126, 126);
+        margin-right: 12px;
+        font-size: 13px;
+        font-weight: 400;
+        transition: text-decoration 0.15s;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .x-corp p:hover {
+        text-decoration: underline;
+    }
+    .verified-icon {
+        fill: rgb(81, 139, 255);
+        height: 20px;
+        font-size: 0;
+        margin-top: 2px;
+        margin-left: 1px;
+    }
+}
+@media (max-width:1035px){
+    .right-sidebar {
+        flex: 1;
+        display: flex;
+        margin-right: 98px;
+        min-width: 0px;
+    }
+    .right-sidebar-container {
+        padding-top: 12px;
+        border-left: 1px solid rgb(45, 45, 45);
+        background-color: black;
+        z-index: 200;
+        flex: 1;
+        position: fixed;
+        bottom: 0;
+        top: 0;
+    }
+    .recommendation-box {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(45, 45, 45);
+        padding-top: 10px;
+        width: 310px;
+        border-radius: 15px;
+        margin-bottom: 12px;
+        position: fixed;
+        right: -500px;
+        opacity: 0;
+    }
+    .x-corp {
+        display: flex;
+        flex-direction: row;
+        padding-left: 15px;
+        padding-top: 2px;
+        cursor: pointer;
+        position: fixed;
+        right: -500px;
+        opacity: 0;
+    }
+    .recommendation-box-content {
+        position: static;
+        background-color: black;
+        margin-top: 25px;
+    }
+}
+@media (min-width:1035.1px) {
+    .recommendation-box-content {
+        position: fixed;
+        background-color: black;
+        margin-top: 25px;
+        left: -500px;
+        opacity: 0;
+    }
+}

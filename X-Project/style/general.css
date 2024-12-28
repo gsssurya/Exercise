@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
