@@ -1,0 +1,418 @@
+body {
+    background-color: #E5C9D7;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(Foto/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    animation: backg; 
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hujan {
+    0%{
+        
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    height: 330px;
+}
+.judul {
+    font-family: "Mea Culpa", serif;
+    font-style: normal;
+    font-size: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #26415E;
+    font-weight: 600;
+    pointer-events: none;
+    white-space: nowrap;
+    animation: judul;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+@keyframes judul{
+    0% {
+        font-size: 0px;
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        
+    }
+}
+.welcome {
+    color: #0B1B32;
+    display: flex;
+    font-size: 55px;
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: normal;
+    pointer-events: none;
+    animation: turun;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+@keyframes turun {
+    0% {
+        opacity: 0;
+        transform: translateY(-1000px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.get-started-button {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    color: black;
+    background-color: inherit;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@keyframes backg {
+    0% {
+        background-position-y: 2000px;
+    }
+    100% {
+        background-position: center;
+    }
+}
+.start-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(245, 245, 245);
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 14px 0 14px;
+    cursor: pointer;
+    transition: background 0.5s, border 0.5s;
+    border: 1px #E5C9D7 solid;
+    animation: button;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+@keyframes button {
+    0% {
+        opacity: 0;
+        transform: translateY(2000px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.icon-start {
+    font-size: 0px;
+    opacity: 0;
+    position: absolute;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 20
+}
+@keyframes slide {
+    0% {
+        transform: translateX(-50px);
+        position: relative;
+    }
+    50% {
+        opacity: 1;
+        position: relative;
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+      position: relative;
+    }
+}
+.start-button:hover {
+    .icon-start {
+        animation: slide;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
+        animation-fill-mode:forwards;
+        
+    }
+     background: rgb(235, 235, 235);
+     border: 1px #26415E solid;
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #83a6ce;
+    width: 100%;
+    position: absolute;
+    bottom: 8%;
+    animation: button;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+.middle-section {
+    flex: 1;
+    color: #0B1B32;
+    font-family: "Ubuntu", serif;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: 1px solid #26415E;
+    min-height: 40px;
+    border-right: 1px solid #26415E;
+    padding: 0 25px 0 25px;
+    pointer-events: none;
+    min-width: 300px;
+}
+.left-section, .right-section{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-section{
+    border-right: 1px solid #26415E;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+} 
+.right-section {
+    border-left: 1px solid #26415E;
+    margin-left: 8px;
+}
+.nama {
+    font-family: "Ubuntu", serif;
+    font-size: 15px;
+    color: #0B1B32;
+    margin: 0;
+    font-weight: 400;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+.nama:hover {
+    color: #17396a;
+}
+a{
+    font-size: 0px;
+    cursor: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.image {
+    background-color: #26415E;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    border: 1px #83a6ce solid;
+    transition: border 0.15s;
+}
+.image:hover {
+    border: 1px #17396a solid;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0 7px 0;
+}
+.box-flow {
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    bottom: 96px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-500px);
+}
+.box-flow2 {
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    bottom: 96px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(500px);
+}
+@keyframes slide-right {
+    0%{
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+    75% {
+        opacity: 0;
+        transform: translateX(-125px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes slide-left {
+    0%{
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+    75% {
+        opacity: 0;
+        transform: translateX(125px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.profile-box:hover .box-flow {
+    animation: slide-right;
+   animation-duration: 0.35s;
+   animation-timing-function: ease-in;
+   animation-fill-mode: forwards;
+   
+}
+.profile-box:hover .box-flow2 {
+    animation: slide-left;
+   animation-duration: 0.35s;
+   animation-timing-function: ease-in;
+   animation-fill-mode: forwards;
+   
+}
+.box-flow:hover {
+    transform: translateX(0px);
+}
+.box-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 143px;
+    height: 35px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.box-part:hover {
+    background-color: rgb(235, 235, 235);
+}
+.instagram_icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+p {
+    font-family: "Ubuntu", serif;
+}
+.social-media-text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Ubuntu", serif;
+    padding-bottom: 15px;
+    padding-top: 18px;
+    color: #0B1B32;
+    pointer-events: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.box-part-name {
+    font-size: 14px;
+    margin: 0;
+    color: #0B1B32;
+    cursor: pointer;
+}
+.header-wrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 270px;
+    cursor: default;
+}
+@media (max-width: 822px) {
+    body {
+        transition-timing-function: ease;
+        transition-duration: 0.5s;
+        background-size: 1700px;
+    }
+    .judul {
+        transition-timing-function: ease;
+        transition-duration: 0.5s;
+        font-size: 70px;
+    }
+    .welcome {
+        transition-timing-function: ease;
+        transition-duration: 0.5s;
+        font-size: 40px;
+    }
+    .start-button {
+        transition-timing-function: ease;
+        transition-duration: 1s;
+        width: 120px;
+        height: 32px;
+    }
+    .nama {
+        opacity: 0;
+        position: absolute;
+        pointer-events: none;
+        cursor: none;
+        font-size: 0px;
+    }
+    .image {
+        margin: 0;
+    }
+    .box-flow2 {
+        bottom: 72px;
+        right: 25.5px;
+    }
+    .box-flow {
+        bottom: 72px;
+        left: 25.5px;
+    }
+    .dekorasi {
+        top:-430px;
+        left: -392px;
+    }
+    .dekorasi-love {
+        width: 1389.09px;
+        height: 1389.09px;
+    }
+}
